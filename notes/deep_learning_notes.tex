@@ -22,7 +22,28 @@
 \end{abstract}
 \section{Chapter 2.1-2.3 May 24}
 \begin{enumerate}
-	\item 好困啊，今天讨论的两点明天起床再写吧
+	\item 在PyTorch库中使用的数据类型张量，除了可以简单地进行按元素的加减乘除等运算之外，在不同形状的张量之间还可以通过来按元素操作。广播机制的可以自动扩展张量为相等大小。
+	如果遵守以下规则，则两个tensor是“可广播的”：
+\begin{enumerate}
+    \item 每个tensor至少有一个维度；
+    \item 遍历tensor所有维度时，从末尾随开始遍历，两个tensor存在下列情况：
+        \\tensor维度相等。
+        \\tensor维度不等且其中一个维度为1。
+        \\tensor维度不等且其中一个维度不存在。
+\end{enumerate}
+ 如果两个tensor是“可广播的”，则计算过程中，如果两个tensor的维度不同，则在维度较小的tensor的前面增加维度，使它们维度相等。对于每个维度，计算结果的维度值取两个tensor中较大的那个值。tensor扩展维度是指将数值进行复制到扩展后的维度上。
+\\具体例子可以参考：https://zhuanlan.zhihu.com/p/402163854
+
+\item 在使用PyTorch库中的张量数据类型时，需要注意节省内存。在机器学习中，我们可能有数百兆的参数，并且在一秒内多次更新所有参数。通常情况下，我们希望原地执行这些更新。原地更新的办法有：
+\begin{enumerate}
+	\item 用切片表示法将操作的结果分配给先前分配的数组，如
+	\begin{lstlisting}
+Z = torch.zeros_like(Y)
+Z[:] = X + Y
+	\end{lstlisting}
+	这样不会为变量Z分配新的内存，而是会改变原有地址处的内容。
+	\item	使用X[:] = X + Y或X += Y，而非X = X + Y，最后一种办法会改变变量X所指向的地址，相当于重新找了一个内容空间来存放求和的结果。≠≠
+\end{enumerate}
 
 \end{enumerate}
 

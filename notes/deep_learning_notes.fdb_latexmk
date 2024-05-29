@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1716481251 "deep_learning_notes.xdv" "deep_learning_notes.pdf" "deep_learning_notes" 1716481252 0
-  "deep_learning_notes.xdv" 1716481251 4356 1be44bd4193bff060a105c5ebdb437e8 "xelatex"
+["xdvipdfmx"] 1716967328 "deep_learning_notes.xdv" "deep_learning_notes.pdf" "deep_learning_notes" 1716967329 0
+  "deep_learning_notes.xdv" 1716967328 15596 cbd2bf7b2ba6de8a48d99adb740944ff "xelatex"
   (generated)
   "deep_learning_notes.pdf"
   (rewritten before read)
-["xelatex"] 1716481250 "/Users/mac/Documents/2024spring/deep_learning/deep_learning_notes/notes/deep_learning_notes.tex" "deep_learning_notes.xdv" "deep_learning_notes" 1716481252 0
+["xelatex"] 1716967327 "/Users/mac/Documents/2024spring/deep_learning/deep_learning_notes/notes/deep_learning_notes.tex" "deep_learning_notes.xdv" "deep_learning_notes" 1716967329 0
   "/System/Library/Fonts/Menlo.ttc" 1714642644 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1714642644 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
-  "/Users/mac/Documents/2024spring/deep_learning/deep_learning_notes/notes/deep_learning_notes.tex" 1716481250 1089 669286d8635b9ed6b2248d85877eccd0 ""
+  "/Users/mac/Documents/2024spring/deep_learning/deep_learning_notes/notes/deep_learning_notes.tex" 1716967325 2824 04b9c906879b7c39a092229db5071b91 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -110,9 +110,9 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1693836728 10502807 f9806604393b3cf4a02af9f2450dae59 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "deep_learning_notes.aux" 1716481251 639 e71af96ed503f1c91b2448a931bb1f22 "xelatex"
-  "deep_learning_notes.out" 1716481251 162 d0ca16bfe7661365880d3217b4c2e0e2 "xelatex"
-  "deep_learning_notes.tex" 1716481250 1089 669286d8635b9ed6b2248d85877eccd0 ""
+  "deep_learning_notes.aux" 1716967328 639 e71af96ed503f1c91b2448a931bb1f22 "xelatex"
+  "deep_learning_notes.out" 1716967328 162 d0ca16bfe7661365880d3217b4c2e0e2 "xelatex"
+  "deep_learning_notes.tex" 1716967325 2824 04b9c906879b7c39a092229db5071b91 ""
   (generated)
   "deep_learning_notes.aux"
   "deep_learning_notes.log"
